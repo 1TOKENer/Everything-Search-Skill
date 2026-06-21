@@ -6,7 +6,7 @@ Everything Search v1 - Install & Discovery Script
 
 作者: OneToken
 版本: 1.0.0
-仓库: https://github.com/1Tokener/everything-search-skill
+仓库: https://github.com/1TOKENer/everything-search-skill
 """
 
 import os

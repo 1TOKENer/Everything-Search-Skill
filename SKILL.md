@@ -5,7 +5,7 @@ description_en: "Windows 10/11 & WSL2 Local File Search System based on Everythi
 emoji: 🔎
 author: OneToken
 version: 1.0.0
-update_website: https://github.com/1Tokener/everything-search-skill
+update_website: https://github.com/1TOKENer/everything-search-skill
 requires:
   os: [windows_10, windows_11,wsl2]
   arch: [win32, win64, win_arm32, win_arm64]

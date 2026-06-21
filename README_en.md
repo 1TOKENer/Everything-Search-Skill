@@ -101,7 +101,7 @@ Send the project repository URL or the README file directly to your AI Agent and
 
 ```text
 Please help me install and learn to use the everything-search-v1 Skill. Repo URL:
-https://github.com/1Tokener/everything-search-skill (only SKILL.md + scripts/ directory needed)
+https://github.com/1TOKENer/everything-search-skill (only SKILL.md + scripts/ directory needed)
 ```
 
 The Agent will automatically clone the repo, detect paths, and verify the configuration. **If the Agent cloned the full repository**, you can delete the `docs/` folder, `README.md`, and `README_en.md` afterwards to keep the working directory lean.
@@ -111,7 +111,7 @@ The Agent will automatically clone the repo, detect paths, and verify the config
 **Option A — Sparse clone (recommended)**: Fetch only ✅ core runtime files, skipping 📄 docs and 🧪 tests:
 
 ```bash
-git clone --no-checkout https://github.com/1Tokener/everything-search-skill.git \
+git clone --no-checkout https://github.com/1TOKENer/everything-search-skill.git \
   && cd everything-search-skill \
   && git sparse-checkout set SKILL.md scripts \
   && git checkout
@@ -123,7 +123,7 @@ python scripts/install.py
 **Option B — Full clone then clean up**: Clone everything, then optionally remove non-runtime files:
 
 ```bash
-git clone https://github.com/1Tokener/everything-search-skill.git \
+git clone https://github.com/1TOKENer/everything-search-skill.git \
   && cd everything-search-skill
 
 # (Optional) Remove non-runtime files to keep the directory lean
@@ -418,6 +418,6 @@ The illustrations were created using the [Ian Xiaohei Illustrations](https://git
 
 **🔎 Everything Search v1** · Bringing millisecond-level local file search to your Agent · No more Token explosions in local search
 
-Made with ❤️ by [OneToken](https://github.com/1Tokener)
+Made with ❤️ by [OneToken](https://github.com/1TOKENer)
 
 </div>
