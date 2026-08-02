@@ -230,7 +230,6 @@ python search_core.py "*.txt" 50 --json
 
 | 优先级 | 来源 |
 | :---: | --- |
-| **0** | `path.env` 中由 `--install` 手动指定的 `ES_PATH`（`ES_PATH_SOURCE=manual`，**不会被自动探测覆盖**） |
 | 1 | 运行中的 `Everything.exe` 进程所在目录 |
 | 2 | `path.env` 中自动写入的 `ES_PATH` |
 | 3 | 环境变量 `EVERYTHING_PATH` 下的 `es.exe` |
@@ -238,7 +237,7 @@ python search_core.py "*.txt" 50 --json
 | 5 | 环境变量 `ES_PATH` |
 | 6 | 系统 `PATH` 中的 `es.exe` |
 
-> 💡 **说明**：Level 0 为用户手动指定，权重最高；1–3 为常用命中路径；4–6 为补充兜底。配置成功后路径写入 `path.env`，后续调用直接命中前几级，减少重复探测，加速本地搜索。
+> 💡 **说明**：Level 1–3 为常用命中路径；4–6 为补充兜底。配置成功后路径写入 `path.env`，后续调用直接命中前几级，减少重复探测，加速本地搜索。
 
 ---
 
