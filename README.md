@@ -108,7 +108,7 @@ git clone --no-checkout https://github.com/1TOKENer/everything-search-skill.git 
 #### 二、**手动配置**:
 
 1.启动 Everything 软件（也可在文件夹中运行Everything.exe程序）
-2. 运行安装脚本：
+2.运行安装脚本：
 a.自动探测 Everything 与 es.exe 路径并写入 path.env：
 
 ```bash
