@@ -7,7 +7,7 @@
 **Everything Search v1** 是 一个 依托于 Windows本地搜索工具 [Everything](https://www.voidtools.com/) 及其命令行工具`es.exe`的，面向 智能体Agent（OpenClaw、Hermes Agent、Reasonix等）与 终端用户 的，可以提高本地搜索速度并显著降低词元消耗的 技能包。
 
 
-![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20%7C%20WSL2-0078D4?logo=windows)  [![Python](https://img.shields.io/badge/python-3.6+-3776AB?logo=python&logoColor=white)](https://www.python.org/)  [![Everything](https://img.shields.io/badge/Everything-es.exe%20CLI-1a73e8)](https://www.voidtools.com/zh-cn/downloads/#cli)  [![License](https://img.shields.io/badge/license-MIT-22c55e)](#-许可证)  ![Version](https://img.shields.io/badge/version-1.2.0-6366f1)
+![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20%7C%20WSL2-0078D4?logo=windows)  [![Python](https://img.shields.io/badge/python-3.12+-3776AB?logo=python&logoColor=white)](https://www.python.org/)  [![Everything](https://img.shields.io/badge/Everything-es.exe%20CLI-1a73e8)](https://www.voidtools.com/zh-cn/downloads/#cli)  [![License](https://img.shields.io/badge/license-MIT-22c55e)](#-许可证)  ![Version](https://img.shields.io/badge/version-1.2.0-6366f1)
 
 </div>
 
